@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Loading from "../components/Loading";
 
 const Productcard = () => {
   return (
-    <div>productcard</div>
-  )
-}
+    <div>
+      Product card
+    </div>
+  );
+};
 
-export default Productcard
+export default Productcard;
