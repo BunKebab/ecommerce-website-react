@@ -1,7 +1,14 @@
 import React from "react"
 import {Link} from 'react-router-dom'
 
+import {useSelector} from 'react-redux'
+
 const Header = () => {
+  const {
+    isAuthenticated,
+    user
+  } = useSelector((state) => state.authslice)
+
   return (
     <div className="container">
       <header className="text-gray-600 body-font">
@@ -9,16 +16,19 @@ const Header = () => {
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <Link to='/' className="mr-5 hover:text-gray-900">Home</Link>
             <Link to='/products' className="mr-5 hover:text-gray-900">Products</Link>
-            <Link to='/cart' className="mr-5 hover:text-gray-900">Cart</Link>
-            <Link className="hover:text-gray-900">Fourth Link</Link>
+            {isAuthenticated && user !== null? (
+              <Link to='/profile' className="hover:text-gray-900">Profile</Link>
+            ): (
+              <Link to='/login' className="hover:text-gray-900">Login</Link>
+            )}
           </nav>
           <Link to='/' className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
             <span className="ml-3 text-xl">Ecommerce</span>
           </Link>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
             <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-              <Link to='/login'>
-                Login
+              <Link to='/cart'>
+                Cart
               </Link>
               <svg
                 fill="none"

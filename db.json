@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "email": "Gonzalo.Hirthe51@example.net",
+      "username": "Filiberto.Kunze7",
+      "password": "admin123",
+      "fullname": "Danny Hilll",
+      "role": "Admin",
+      "id": "1",
+      "name": "Admin"
+    },
+    {
+      "email": "Wendell.Hudson@example.com",
+      "username": "Luz.Carter",
+      "password": "user1234",
+      "fullname": "Marco Schuppe V",
+      "role": "User",
+      "id": "2",
+      "name": "User"
+    },
+    {
+      "id": "900b",
+      "name": "Sheraz",
+      "email": "sheraz@sheraz.com",
+      "role": "User",
+      "password": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "name": "Tuna",
+      "price": "157.00",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "1"
+    },
+    {
+      "name": "Bike",
+      "price": "243.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "3"
+    },
+    {
+      "name": "Cheese",
+      "price": "500.00",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "4"
+    },
+    {
+      "name": "Shirt",
+      "price": "463.00",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "5"
+    },
+    {
+      "name": "Cheese",
+      "price": "960.00",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "6"
+    },
+    {
+      "name": "Sausages",
+      "price": "941.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "7"
+    },
+    {
+      "name": "Bacon",
+      "price": "223.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "8"
+    },
+    {
+      "name": "Chicken",
+      "price": "160.00",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "9"
+    },
+    {
+      "name": "Shirt",
+      "price": "875.00",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "10"
+    },
+    {
+      "name": "Bacon",
+      "price": "299.00",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "11"
+    },
+    {
+      "name": "Shirt",
+      "price": "854.00",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "12"
+    },
+    {
+      "name": "Car",
+      "price": "388.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "13"
+    },
+    {
+      "name": "Chips",
+      "price": "964.00",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "14"
+    },
+    {
+      "name": "Chair",
+      "price": "315.00",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "17"
+    },
+    {
+      "name": "Keyboard",
+      "price": "51.00",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "18"
+    },
+    {
+      "name": "Mouse",
+      "price": "905.00",
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "19"
+    },
+    {
+      "name": "Hat",
+      "price": "607.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "image": "https://loremflickr.com/640/480/fashion",
+      "id": "20"
+    }
+  ],
+  "orders": [
+    {
+      "id": "4941",
+      "user": {
+        "email": "Gonzalo.Hirthe51@example.net",
+        "username": "Filiberto.Kunze7",
+        "password": "ii5gCJNiAUlh8LE",
+        "fullname": "Danny Hilll",
+        "role": "Admin",
+        "id": "1"
+      },
+      "items": [
+        {
+          "name": "Cheese",
+          "price": "500.00",
+          "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+          "image": "https://loremflickr.com/640/480/fashion",
+          "id": "4"
+        }
+      ],
+      "address": "evevev"
+    },
+    {
+      "id": "5e16",
+      "user": {
+        "email": "Wendell.Hudson@example.com",
+        "username": "Luz.Carter",
+        "password": "td7osjVreRq0ZBt",
+        "fullname": "Marco Schuppe V",
+        "role": "User",
+        "id": "2"
+      },
+      "items": [
+        {
+          "name": "Tuna",
+          "price": "157.00",
+          "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+          "image": "https://loremflickr.com/640/480/fashion",
+          "id": "1"
+        },
+        {
+          "name": "Tuna",
+          "price": "157.00",
+          "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+          "image": "https://loremflickr.com/640/480/fashion",
+          "id": "1"
+        }
+      ],
+      "address": "evevev"
+    }
+  ]
+}
